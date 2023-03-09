@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .member-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .member-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .member-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .member-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  
